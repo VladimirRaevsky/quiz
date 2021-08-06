@@ -1,0 +1,34 @@
+.result__box {
+    background: #fff;
+    border-radius: 5px;
+    display: flex;
+    padding: 25px 30px;
+    width: 450px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    transform: translate(-50%, -50%) scale(0.9);
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s ease;
+}
+
+.result__icon i{
+    font-size: 100px;
+    color: var(--turbo-color);
+    margin-bottom: 10px;
+}
+
+.complete__text {
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.score__text {
+    display: flex;
+    margin: 10px 0;
+    font-size: 18px;
+}
+.score__text span{
+    margin-right: 10px;
+}

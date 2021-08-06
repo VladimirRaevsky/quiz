@@ -1,0 +1,62 @@
+
+html {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px 0px 0px 0px;
+    font-family: 'Rubik', sans-serif;
+    background-color: var(--robinsBlue-color);
+    font-weight: 400;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+}
+ul, li, ol {
+    margin: 0;
+    padding: 0;
+    // list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+.container {
+    max-width: 1148px;
+    margin: 0px auto;
+}
+
+.btn-reset {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+::selection {
+    color: var(--nameThat-color);
+    background-color: var(--starship-color);
+}
+
+
+.start__btn,
+.info-box,
+.quiz,
+.result__box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
+                0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
